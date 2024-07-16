@@ -9,7 +9,7 @@ const transactionRouter = require("./routes/transactionRouter");
 //!connecting mongoose
 mongoose
   .connect(
-    "mongodb+srv://mohanasreeummidi:3EB9f1YbEN0kKIuw@mernexptracker.dghmi8n.mongodb.net/?retryWrites=true&w=majority&appName=mernexptracker"
+    ""
   )
   .then(() => console.log("mongoose connected sucessfully"))
   .catch((e) => console.log(e));
